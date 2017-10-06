@@ -1,0 +1,24 @@
+Put Solutions under About Us
+
+News- chronological bloglike date/ title
+
+https://www.microsoft.com/en-us/about
+
+31 may 2016
+
+Contracts
+
+Contract No, location, contract&description
+
+cable storage telecom help desk
+
+Add seaport-e logo to footer http://avtsim.com/wp-content/uploads/2015/01/contracts-seaporte.jpg
+
+Add Stars II to footer http://www.h2ksi.com/sci/wp-content/uploads/2015/10/8astars2.jpg
+
+Fix group scaling incorrectly
+
+
+Add button to customers redirecting to contracts
+
+Add something realizing Hawaii in the home page or header banner
