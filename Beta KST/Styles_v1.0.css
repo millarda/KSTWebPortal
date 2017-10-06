@@ -265,6 +265,10 @@ position:relative;
   text-decoration: underline;
 }
 
+/*.content.jobpost h1{
+  font-size: 2vw;
+}*/
+
 .content.jobpost .long{
   font-size: 24px;
 }
