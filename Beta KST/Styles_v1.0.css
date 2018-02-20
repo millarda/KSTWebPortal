@@ -437,8 +437,11 @@ position:relative;
   text-align:center;
   margin-left: auto;
   margin-right: auto;
-}
 
+}
+.buttoncenter td{
+  padding: 40px;
+}
 /*.content p{
 font-size: 20px;
 }*/
