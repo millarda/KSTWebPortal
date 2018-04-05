@@ -820,6 +820,10 @@ li a {
   margin-top: 5px;
 }
 
+.booleanlist > li > ul{
+  margin-left: 60px;
+}
+
 .booleanlist.dash{
   list-style-type: none;
 }
