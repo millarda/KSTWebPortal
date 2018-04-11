@@ -343,19 +343,98 @@ position:relative;
 }
 
 .content.testimonial .tesBody{
-  background-color: #A7CCED;
-  display: inline-block;
-  margin-bottom: 10px;
-  border-radius: 15px;
-  border-style: solid;
-  border-width: 4px;
-  border-color: var(--content_outline);
-  padding: 5px;
+
 }
 
 .content.testimonial .tesHeader{
 
 }
+
+.tesCont{
+  background-color: rgb(230, 230, 230);
+  display: inline-block;
+  margin-bottom: 10px;
+  /* border-radius: 15px; */
+  /* border-style: solid;
+  border-width: 4px;
+  border-color: var(--content_outline); */
+  padding: 10px;
+  /* padding-bottom: 100px; */
+}
+
+.triangle{
+  /* background-color: rgb(230, 230, 230); */
+  background-color: transparent;
+  /* display: inline-block; */
+  height: 20px;
+  margin-top: -10px;
+  margin-left: 20%;
+  border-top: solid 50px rgb(230, 230, 230);
+  border-left: solid 50px transparent;
+  border-right: solid 50px transparent;
+  width: 0;
+  height: 0;
+
+  /* border-radius: 15px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: black; */
+
+}
+
+.annote{
+  padding: 10px;
+  display: grid;
+  position: relative;
+  grid-gap: 5px;
+}
+
+.annote .C1{
+  grid-row: 1;
+  grid-column: 4;
+}
+.annote .C1 img{
+  width: 4.2em;
+  height: auto;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(200, 200, 200);
+
+  padding: 5px;
+
+  margin-bottom: -5px;
+
+}
+.annote .C2{
+  grid-row: 1;
+  grid-column: 5/12;
+  padding: 5px;
+}
+
+.annote .C3{
+  grid-row: 1;
+  grid-column: 4/12;
+  border-bottom: solid 15px rgb(200, 200, 200);
+  /* border-radius: 15px;
+  border-style: solid; */
+  border-width: 4px;
+  border-bottom-left-radius: 15px;
+  /* border-color: rgb(200, 200, 200); */
+
+}
+
+.annote .C4{
+  grid-row: 1;
+  grid-column: 13/20;
+
+}
+
+/* .content.testimonial  .tesBody  img{
+  width: 100px;
+  height: auto;
+} */
 
 .contractTable tr td{
   width:500px;
@@ -887,7 +966,7 @@ TODO Optimize by bringing these settings to the default
 {
   .box1{
     height: 300px;
-    width: 400px;
+    width: 500px;
     font-size: 25px;
     padding: 30px;
   }
@@ -901,7 +980,7 @@ TODO Optimize by bringing these settings to the default
 
   }
   .group{
-    width: 1000px;
+    width: 1150px;
   }
   .imageBar.type2{
     display: grid;
@@ -955,14 +1034,24 @@ TODO Optimize by bringing these settings to the default
     float: none;
   }
 }
-@media screen and (max-width:1032px) and (min-width:620px)
+@media screen and (max-width:1160px) and (min-width:1013px)
 {
   .navlist{
-    font-size: 13px;
-    /*padding: 4px;
-    border-radius: 9px;
-    margin-left: 1px;
-    margin-right: 1px;*/
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 12px;
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
+@media screen and (max-width:1012px) and (min-width:620px)
+{
+  .navlist{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: 7px;
+    margin-right: 7px;
   }
 }
 @media screen and (max-width:1032px){
@@ -972,7 +1061,7 @@ TODO Optimize by bringing these settings to the default
   }
 }
 /*SECOND BOX CLOSE */
-@media screen and (max-width:1032px) and (min-width:800px)
+@media screen and (max-width:1160px) and (min-width:800px)
 {
 
   .certifications img{
@@ -1242,6 +1331,12 @@ TODO Optimize by bringing these settings to the default
     display: none;
   }
 }
+
+@media screen and (max-width:652px) and (min-width:619px){
+  .annote .C1 img{
+    width: 7em;
+  }
+}
 /* For Phones and Really Small Screens*/
 /*FOURTH BOX CLOSE*/
 @media screen and (max-width:620px)and (min-width:477px){
@@ -1269,6 +1364,10 @@ TODO Optimize by bringing these settings to the default
 
   .content h1{
     font-size: 25px;
+  }
+  .annote .C1 img{
+
+    margin-bottom: -2px;
   }
 
 
@@ -1443,6 +1542,13 @@ TODO Optimize by bringing these settings to the default
   }
   .content p{
     font-size: 7px;
+  }
+  .annote .C3{
+    border-bottom: none;
+  }
+  .annote .C2{
+    grid-column: 5/20;
+
   }
   .newsarticle section{
     overflow: visible;
