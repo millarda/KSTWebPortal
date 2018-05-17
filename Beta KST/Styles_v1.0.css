@@ -152,6 +152,7 @@ position:relative;
 /*text for box1*/
 .box1 p{
   margin-bottom: 50px;
+  font-size: 20px;
 }
 .box1 h1{
   background-color: var(--box1color);
@@ -976,7 +977,7 @@ TODO Optimize by bringing these settings to the default
     padding-left:20px;
     padding-right: 20px;
     margin-bottom: 20px;
-
+    font-size: 20px;
   }
   .group{
     width: 1150px;
@@ -1133,7 +1134,8 @@ TODO Optimize by bringing these settings to the default
   .box1 p{
     padding-left:10px;
     padding-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
   }
   .infobox{
     width: 44%;
@@ -1277,6 +1279,7 @@ TODO Optimize by bringing these settings to the default
     padding-left:10px;
     padding-right: 10px;
     margin-bottom: 20px;
+    font-size: 11px;
   }
   .infobox{
     /*position: absolute;
@@ -1398,13 +1401,14 @@ TODO Optimize by bringing these settings to the default
     left: 4%;
   }
   .box1 h1{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     width: 85%;
   }
   .box1 p{
     padding-left:10px;
     padding-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
   }
   .infobox{
     right: 4%;
@@ -1588,14 +1592,15 @@ TODO Optimize by bringing these settings to the default
   }
   .box1 h1{
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 8px;
     width: 70%;
   }
   .box1 p{
     padding-left:10px;
     padding-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 8px;
   }
   .infobox{
     right: 4%;
