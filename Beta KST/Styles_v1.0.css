@@ -362,6 +362,21 @@ position:relative;
   padding: 10px;
   /* padding-bottom: 100px; */
 }
+.listbox{
+  width: 30em;
+  background-color: #DDDDDD;
+  padding: 10px;
+  display: table;
+  margin:auto;
+}
+.centered{
+  text-align: center;
+  color: #6D6D6D;
+}
+.centered.bold{
+  font-weight: bold;
+  color: #2D2D2D;
+}
 
 .triangle{
   /* background-color: rgb(230, 230, 230); */
