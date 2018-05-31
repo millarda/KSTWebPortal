@@ -866,6 +866,9 @@ footer {
   margin-top: 10px;
   background-color: var(--bannercolor);
   clear: both;
+  /* left: 0px;
+  width: 100%;
+  position: fixed; */
   bottom: 0px;
 }
 .footercont {
