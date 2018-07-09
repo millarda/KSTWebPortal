@@ -64,7 +64,7 @@ footer, header, main, nav, section {
   --simpleTablecolor: black;
 
   --jobPostText: black;
-  --jobPostCBG: #67697C;
+  --jobPostCBG: rgba(040, 040, 040, 0.6); /*#67697C;*/
   --jobPostHText: white;
   --jobPostHBG: #545E75;
   --jobPostHBGHover: #06BEE1;
@@ -131,6 +131,12 @@ position:relative;
   /*overflow: auto;*/
   /*height: 700px;*/
   /*height: 100%;*/
+}
+
+.mainboxHome.Openings{
+  float: none;
+  display: block;
+
 }
 .bold{
   font-weight: bold;
@@ -371,7 +377,7 @@ position:relative;
 }
 .centered{
   text-align: center;
-  color: #6D6D6D;
+  color: #262626;
 }
 .centered.bold{
   font-weight: bold;
@@ -945,7 +951,9 @@ li a {
   display: inline;
 }
 
-
+.booleanlist.ordered li{
+  margin-top: 20px;
+}
 
 
 .navlist {
