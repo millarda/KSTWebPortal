@@ -463,11 +463,18 @@ position:relative;
   border: 1px solid black;
   background-color: var(--contractTableBG);
 }
+
+.contractTable tr th{
+  width:500px;
+  border: 1px solid black;
+  background-color: #211103;
+}
+
 .contractTable{
   margin-top: 10px;
   border: 1px solid black;
-  background-color: var(--contractTableBorder);
-  color: var(--contractTablecolor);
+  background-color: var(--contractTablecolor);
+  color: #A4DEF9;
 }
 
 .contentImage{
@@ -902,9 +909,6 @@ footer {
 }
 .certifications img{
   height:115px;
-}
-.bodyclass{
-  background-image: url("testbackground1.jpg");
 }
 
 .group{
