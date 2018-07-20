@@ -1063,6 +1063,9 @@ TODO Optimize by bringing these settings to the default
     width: auto;
     float: none;
   }
+  .listbox{
+    width: 25em;
+  }
 }
 @media screen and (max-width:1160px) and (min-width:1013px)
 {
