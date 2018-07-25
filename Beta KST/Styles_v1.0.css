@@ -572,6 +572,10 @@ position:relative;
 .buttoncenter td{
   padding: 40px;
 }
+
+.buttoncenter.tight td{
+  padding: 10px;
+}
 /*.content p{
 font-size: 20px;
 }*/
