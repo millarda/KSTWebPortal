@@ -963,6 +963,10 @@ li a {
   margin-top: 20px;
 }
 
+.reverse_indent{
+  text-indent: -2em;
+  margin-left: 2em;
+}
 
 .navlist {
   padding: 9px;
